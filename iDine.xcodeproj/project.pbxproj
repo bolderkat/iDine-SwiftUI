@@ -16,6 +16,7 @@
 		65E166A925F6F95200DA2F53 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65E166A725F6F95200DA2F53 /* Order.swift */; };
 		65E166AC25F6F96800DA2F53 /* menu.json in Resources */ = {isa = PBXBuildFile; fileRef = 65E166AB25F6F96800DA2F53 /* menu.json */; };
 		65E166AF25F703A000DA2F53 /* ItemRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65E166AE25F703A000DA2F53 /* ItemRow.swift */; };
+		65E166B225F722A100DA2F53 /* ItemDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65E166B125F722A100DA2F53 /* ItemDetail.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		65E166A725F6F95200DA2F53 /* Order.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
 		65E166AB25F6F96800DA2F53 /* menu.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = menu.json; sourceTree = "<group>"; };
 		65E166AE25F703A000DA2F53 /* ItemRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemRow.swift; sourceTree = "<group>"; };
+		65E166B125F722A100DA2F53 /* ItemDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetail.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 			children = (
 				65E1669225F6F73900DA2F53 /* iDineApp.swift */,
 				65E1669425F6F73900DA2F53 /* ContentView.swift */,
+				65E166B125F722A100DA2F53 /* ItemDetail.swift */,
 				65E166AE25F703A000DA2F53 /* ItemRow.swift */,
 				65E166A325F6F94B00DA2F53 /* Helper.swift */,
 				65E166A625F6F95200DA2F53 /* Menu.swift */,
@@ -154,6 +157,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65E166B225F722A100DA2F53 /* ItemDetail.swift in Sources */,
 				65E1669525F6F73900DA2F53 /* ContentView.swift in Sources */,
 				65E1669325F6F73900DA2F53 /* iDineApp.swift in Sources */,
 				65E166A925F6F95200DA2F53 /* Order.swift in Sources */,
