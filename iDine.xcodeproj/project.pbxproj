@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		659F097F25F738F50035018F /* OrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 659F097E25F738F50035018F /* OrderView.swift */; };
+		659F098225F73A960035018F /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 659F098125F73A960035018F /* MainView.swift */; };
 		65E1669325F6F73900DA2F53 /* iDineApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65E1669225F6F73900DA2F53 /* iDineApp.swift */; };
 		65E1669525F6F73900DA2F53 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65E1669425F6F73900DA2F53 /* ContentView.swift */; };
 		65E1669725F6F73A00DA2F53 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65E1669625F6F73A00DA2F53 /* Assets.xcassets */; };
@@ -20,6 +22,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		659F097E25F738F50035018F /* OrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderView.swift; sourceTree = "<group>"; };
+		659F098125F73A960035018F /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		65E1668F25F6F73900DA2F53 /* iDine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iDine.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		65E1669225F6F73900DA2F53 /* iDineApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iDineApp.swift; sourceTree = "<group>"; };
 		65E1669425F6F73900DA2F53 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -67,6 +71,8 @@
 				65E1669225F6F73900DA2F53 /* iDineApp.swift */,
 				65E1669425F6F73900DA2F53 /* ContentView.swift */,
 				65E166B125F722A100DA2F53 /* ItemDetail.swift */,
+				659F097E25F738F50035018F /* OrderView.swift */,
+				659F098125F73A960035018F /* MainView.swift */,
 				65E166AE25F703A000DA2F53 /* ItemRow.swift */,
 				65E166A325F6F94B00DA2F53 /* Helper.swift */,
 				65E166A625F6F95200DA2F53 /* Menu.swift */,
@@ -158,6 +164,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				65E166B225F722A100DA2F53 /* ItemDetail.swift in Sources */,
+				659F098225F73A960035018F /* MainView.swift in Sources */,
+				659F097F25F738F50035018F /* OrderView.swift in Sources */,
 				65E1669525F6F73900DA2F53 /* ContentView.swift in Sources */,
 				65E1669325F6F73900DA2F53 /* iDineApp.swift in Sources */,
 				65E166A925F6F95200DA2F53 /* Order.swift in Sources */,
