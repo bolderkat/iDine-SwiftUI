@@ -15,6 +15,7 @@ struct CheckoutView: View {
     @State private var paymentType = "Cash"
     @State private var addLoyaltyDetails = false
     @State private var loyaltyNumber = ""
+    @State private var showingPaymentAlert = false
     private var totalPrice: String {
         let formatter = NumberFormatter()
         formatter.numberStyle = .currency
@@ -49,12 +50,19 @@ struct CheckoutView: View {
             }
             Section(header: Text("Total: \(totalPrice)")) {
                 Button("Confirm order") {
-                    
+                    showingPaymentAlert.toggle()
                 }
             }
         }
         .navigationTitle("Payment")
         .navigationBarTitleDisplayMode(.inline)
+        .alert(isPresented: $showingPaymentAlert) {
+            Alert(
+                title: Text("Order confirmed"),
+                message: Text("Your total was \(totalPrice) – Thank you!"),
+                dismissButton: .default(Text("OK"))
+            )
+        }
     }
 }
 
