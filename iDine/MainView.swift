@@ -8,8 +8,9 @@
 import SwiftUI
 
 struct MainView: View {
+    
     var body: some View {
-        TabView {
+        TabView() {
             ContentView()
                 .tabItem {
                     Label("Menu", systemImage: "list.dash")

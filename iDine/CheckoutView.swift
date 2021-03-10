@@ -9,6 +9,8 @@ import SwiftUI
 
 struct CheckoutView: View {
     @EnvironmentObject var order: Order
+    @Environment(\.presentationMode) var presentationMode
+    
     let paymentTypes = ["Cash", "Credit Card", "iDinePoints"]
     let tipAmounts = [10, 15, 20, 25, 0]
     @State private var selectedTip = 15
@@ -62,7 +64,10 @@ struct CheckoutView: View {
             Alert(
                 title: Text("Order confirmed"),
                 message: Text("Your total was \(totalPrice) – Thank you!"),
-                dismissButton: .default(Text("OK"))
+                dismissButton: .default(Text("OK")) {
+                    order.removeAllItems()
+                    self.presentationMode.wrappedValue.dismiss()
+                }
             )
         }
     }

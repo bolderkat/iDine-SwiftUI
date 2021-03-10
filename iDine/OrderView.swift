@@ -24,7 +24,7 @@ struct OrderView: View {
                     .onDelete(perform: deleteItems)
                 }
                 Section {
-                    NavigationLink(destination: CheckoutView()) {
+                    NavigationLink(destination: CheckoutView(tabSelection: $tabSelection)) {
                         Text("Place Order")
                     }
                 }
